@@ -8,7 +8,7 @@ __What is your product (high-level view)?__<br>
 
 __Whom is it for?__<br>
 
-    This application can be used for anyone who wants to find the shortest route on UC, including hadicapped people.
+    This application can be used for anyone who wants to find the shortest route on UC, including handicapped people.
 
 __What problem does it solve?__<br>
 
@@ -21,7 +21,8 @@ __What alternatives are available, who are your competitors?__<br>
 __What is novel in your approach, that is why is this project compelling and worth developing?__<br>
 
     This project is worth developing because it will allow a more detailed description on what campus paths to take to any building on campus.
-    Most GPS application are not too specific when it comes to UC's campus routes.  
+    Most GPS application are not too specific when it comes to UC's campus routes. This will also potentially display the various entree ways
+    for each building and information about those entree points.
 
 ### Software Architecture
 
