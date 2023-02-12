@@ -1,4 +1,4 @@
-# UC Cmapus Shortest Route Traversal
+# UC Campus Shortest Route Traversal
 ## by: Jordan Shaheen, Chris Vu, Hung Vo
 
 ### Vision
