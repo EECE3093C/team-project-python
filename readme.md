@@ -55,7 +55,7 @@ addressvalidation_result =  gmaps.addressvalidation(['1600 Amphitheatre Pk'],
                                                     enableUspsCass=True)
 ```
 
-Also, since this is a web application, we decided to use the Python webframework Django because otit is considered one of the best Python web frameworks for building websites.  Read the [Django Documentation](https://www.djangoproject.com/) to learn more about how it works.
+Also, since this is a web application, we decided to use the Python webframework Django because it is considered one of the best Python web frameworks for building websites.  Read the [Django Documentation](https://www.djangoproject.com/) to learn more about how it works.
 _________________________
 
 ### Challenges and Risks
