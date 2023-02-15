@@ -60,7 +60,7 @@ _________________________
 
 ### Challenges and Risks
 __What is the single most serious challenge you see in developing the product on schedule?__<br>
-We believe that the most serious challenge we will have when trying to complete this application is the amount of new software development tools we will be using.  The dedication to time when researching will hopefully not cut extensivly into our time developing.
+We believe that the most serious challenge we will have when trying to complete this application is the amount of new software development tools we will be using.  The dedication to time when researching will hopefully not cut extensively into our time developing.
   
 __How will you minimize or mitigate the risk?__<br>
 When researching, it will be very important to collaborate with our team on our findings and also work together to find the best solution to a problem.  Jordan Shaheen is also familiar with using Django in multipule Co-ops, so he will also be able to navigate the Django development process.
