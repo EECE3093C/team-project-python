@@ -21,8 +21,6 @@ for each building and information about those entree points.
 _________________________
 ### Software Architecture
 
-__Make it clear that the system can be built, making good use of the available resources and technology.__<br>
-
 __Describe at a very high level the system's architecture, identifying the components/modules that will interact.__<br>
 
 __Describe the specific data you will access/store.__<br>
