@@ -21,7 +21,9 @@ for each building and information about those entree points.
 _________________________
 ### Software Architecture
 
-__Describe at a very high level the system's architecture, identifying the components/modules that will interact.__<br>
+Below is a flowchart that outlines the software architecture of the application
+
+![alt text](https://github.com/EECE3093C/team-project-python/blob/main/SE_UC_Map.drawio.png)
 
 __Describe the specific data you will access/store.__<br>
 The specific data that we will be storing is the geodata of the buildings, and entraces to those buildings within UC's main campus.  When storing this data, we will also be marking areas within UC's campus that can be accessable by handicapped people since this application will have to work for all types of UC students.  
