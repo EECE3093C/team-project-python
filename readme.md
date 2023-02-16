@@ -21,7 +21,7 @@ for each building and information about those entree points.
 _________________________
 ### Software Architecture
 
-Below is a flowchart that outlines the software architecture of the application
+Below is a flowchart that outlines the software architecture of the application:
 
 ![alt text](https://github.com/EECE3093C/team-project-python/blob/main/SE_UC_Map.drawio.png)
 
