@@ -17,7 +17,7 @@ Competitors are Google Maps and well as other GPS applications.
 __What is novel in your approach, that is why is this project compelling and worth developing?__<br>
 This project is worth developing because it will allow a more detailed description on what campus paths to take to any building on campus.
 Most GPS application are not too specific when it comes to UC's campus routes. This will also potentially display the various entree ways
-for each building and information about those entree points.
+for each building and information about those entree points
 _________________________
 ### Software Architecture
 
