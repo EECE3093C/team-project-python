@@ -6,9 +6,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the pathfinder index.")
+    context = {}
+    return render(request, 'pathfinder/UCRouteMainPage.html', context)
 
 
 def routefinder(request):
     context = {}
-    return render(request, 'pathfinder/findroute.html', context)
+    return render(request, 'pathfinder/FindRouteApp.html', context)
