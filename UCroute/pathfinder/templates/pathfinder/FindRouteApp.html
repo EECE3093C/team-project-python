@@ -15,5 +15,15 @@
 <button style="background-color: green;">
     <a href="{% url 'result' %}">Get Result</a>
 </button>
+
+<p>DROPDOWN OF ALL BUILDINGS</p>
+<label for="build">Choose a building:</label>
+
+<select id="build">
+    {% for build in buildings %}
+        <option>{{ company.company_name }}</option>
+    {% endfor %}
+</select>
+
 </body>
 </html>
