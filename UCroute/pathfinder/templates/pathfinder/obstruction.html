@@ -2,9 +2,8 @@
 <html lang="en">
 {% load static %}
 <head>
-    <img rel="icon" >
     <meta charset="UTF-8">
-    <title>Route Result</title>
+    <title>Report Obstruction</title>
     <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
     <!--- CSS STYLING --->
     <style>
@@ -19,11 +18,13 @@
     </style>
 </head>
 <body>
-<p>Result page</p>
 
-<button>
-    <a href="{% url 'routefinder' %}">FIND ANOTHER ROUTE</a>
+<button style="background-color: red;">
+    <a href="{% url 'home' %}">Main Page</a>
 </button>
 
+<button style="background-color: green;">
+    <a href="{% url 'routefinder' %}">Find Route</a>
+</button>
 </body>
 </html>

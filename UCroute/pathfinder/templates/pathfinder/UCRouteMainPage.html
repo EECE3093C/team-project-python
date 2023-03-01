@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}
 <head>
     <meta charset="UTF-8">
     <title>UC Route Main Page</title>
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+    <!--- CSS STYLING --->
+    <style>
+        body {
+            background-color: white;
+            background-image: url('/static/UClogo.png');
+            background-repeat: no-repeat;
+            background-position: 2000px 10px;
+            background-size: 500px;
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+        }
+    </style>
 </head>
 <body>
 
 <p>Chris is figuring out HTML</p>
 <!-- IF YOU WANT TO OPEN IN NEW TAB, (ADD target="_blank") AT END OF HREF LINE -->
 <button>
-    <a href="{% url 'routefinder' %}">Route App</a>
+    <a href="{% url 'routefinder' %}">Route Page</a>
+</button>
+
+<button>
+    <a href="{% url 'obstruction' %}">REPORT OBSTRUCTION</a>
 </button>
 
 </body>
