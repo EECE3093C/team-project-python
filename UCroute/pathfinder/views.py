@@ -13,3 +13,8 @@ def index(request):
 def routefinder(request):
     context = {}
     return render(request, 'pathfinder/FindRouteApp.html', context)
+
+
+def result(request):
+    context = {}
+    return render(request, 'pathfinder/result.html', context)
