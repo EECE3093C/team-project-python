@@ -5,6 +5,7 @@ from django.db import models
 class Path(models.Model):
     starting_point = models.CharField(max_length=100)
     end_point = models.CharField(max_length=100)
+    distance = models.CharField(max_length=100)
     handicapped = models.BooleanField(default=False)
 
     def __str__(self):
@@ -17,4 +18,10 @@ class Building(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Entrances(models.Model):
+    building = models.ForeignKey(Building, on_delete=models.CASCADE, default=None)
+    location = models.CharField(max_length=100)
+    handicapped = models.BooleanField(default=False)
 
