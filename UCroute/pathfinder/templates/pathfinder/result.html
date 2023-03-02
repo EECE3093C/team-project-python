@@ -2,7 +2,6 @@
 <html lang="en">
 {% load static %}
 <head>
-    <img rel="icon" >
     <meta charset="UTF-8">
     <title>Route Result</title>
     <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
@@ -10,9 +9,9 @@
     <style>
         body {
             background-color: white;
-            background-image: url('/static/UClogo.png');
+            background-image: url('{% static "UClogo.png" %}');
             background-repeat: no-repeat;
-            background-position: 2000px 10px;
+            background-position: 1250px 10px;
             background-size: 500px;
             font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
         }
