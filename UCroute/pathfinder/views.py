@@ -21,6 +21,11 @@ def obstruction(request):
     return render(request, 'pathfinder/obstruction.html', context)
 
 
+def obstruction_sent(request):
+    context = {}
+    return render(request, 'pathfinder/obstruction_sent.html', context)
+
+
 def result(request):
     context = {}
     return render(request, 'pathfinder/result.html', context)
